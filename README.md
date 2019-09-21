@@ -95,3 +95,7 @@ BFS
             max = person_3_point;
         }
 ```
+
+3. stream.anymatch, stream.allmatch, stream.nonematch
+```
+```
