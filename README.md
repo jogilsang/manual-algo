@@ -19,6 +19,17 @@ for me
 그래프
 ```
 
+
+### 큐(Queue)
+```
+        Queue queue = new LinkedList();
+        queue.offer(i); // 인큐
+        queue.peek();   // 큐의 
+        queue.isEmpty() // 큐가 비었는지 체크
+        queue.poll(); // 디큐
+
+```
+
 ### 깊이/너비 우선탐색(DFS/BFS)
 ```
 1. 그래프  
