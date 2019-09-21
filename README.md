@@ -98,4 +98,15 @@ BFS
 
 3. stream.anymatch, stream.allmatch, stream.nonematch
 ```
+        boolean result = Arrays.stream(intArr)
+                .allMatch(a -> a%2 == 0);
+        System.out.println("2의 배수? " + result);
+
+        result = Arrays.stream(intArr)
+                .anyMatch(a -> a%3 == 0);
+        System.out.println("3의 배수가 하나라도 있나? " + result);
+
+        result = Arrays.stream(intArr)
+                .noneMatch(a -> a%3 == 0);
+        System.out.println("3의 배수가 없나? " + result);
 ```
