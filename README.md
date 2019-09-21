@@ -72,3 +72,15 @@ BFS
       answer[p++] = value;
     }
 ```
+2. 3항비교, 세항 비교
+```
+        int maxScore = Math.max(score[0], Math.max(score[1], score[2]));
+        
+        if (person_1_point >= person_2_point && person_1_point >= person_3_point) {
+            max = person_1_point;
+        } else if (person_2_point >= person_1_point && person_2_point >= person_3_point) {
+            max = person_2_point;
+        } else {
+            max = person_3_point;
+        }
+```
