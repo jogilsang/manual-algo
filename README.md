@@ -57,3 +57,18 @@ Brute Force
 백트래킹  
 BFS  
 ```
+
+
+### JAVA
+1. list를 array로
+```
+    ArrayList<Integer> list = new ArrayList<>();
+    return list.stream().mapToInt(i -> i.intValue()).toArray();
+    
+    ArrayList<Integer> list = new ArrayList<>();
+    int[] answer = new int[arrayList.size()];
+    int p = 0;
+    for(int value : arrayList) {
+      answer[p++] = value;
+    }
+```
