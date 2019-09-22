@@ -73,6 +73,9 @@ BFS
 ### JAVA
 1. list를 array로
 ```
+
+        String[] answer = permanent.toArray(new String[permanent.size()]);
+
     ArrayList<Integer> list = new ArrayList<>();
     return list.stream().mapToInt(i -> i.intValue()).toArray();
     
