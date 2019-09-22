@@ -116,6 +116,23 @@ int arr = arr[i] | arr2[i] ;
 Integer.toBinary.String(arr)
 ```
 
+5. String을 여러가지 구분자로 split 할때, 토큰화이용
+```
+String aaa = "동해물과!백두산이@마르고!닳도록@하느님이!보우하사";
+
+StringTokenizer str = new StringTokenizer(aaa, "!@", true);
+
+while(str.hasMoreTokens(){
+   String data = str.nextToken(); // 토큰이 존재하는지 확인
+   if(data.equals("!"))
+     System.out.println("X");
+   else if(data.equals("@")
+    System.out.println("dfdf");
+   else
+     System.out.println("없음");
+}
+```
+
 ### 2018 카카오 신입 공채 1차 블라인드
 ```
 1번 비밀지도
