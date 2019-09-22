@@ -110,6 +110,11 @@ BFS
                 .noneMatch(a -> a%3 == 0);
         System.out.println("3의 배수가 없나? " + result);
 ```
+4. Integer을 Binary 비트로
+```
+int arr = arr[i] | arr2[i] ;
+Integer.toBinary.String(arr)
+```
 
 ### 2018 카카오 신입 공채 1차 블라인드
 ```
