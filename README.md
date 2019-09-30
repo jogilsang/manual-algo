@@ -1,11 +1,18 @@
 # manual-algo
 for me
 
+### 알고리즘 소스코드명
 
-### 
+124 나라의 숫자
+practice_3_myanswer
+https://programmers.co.kr/learn/courses/30/lessons/12899?language=java
+
 코딩테스트연습-완전탐색-카펫  
 practice_level_2_myanswer  
 https://programmers.co.kr/learn/courses/30/lessons/42842  
+
+### 
+
 
 ### 알고리즘 유형
 
