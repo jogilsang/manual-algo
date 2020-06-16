@@ -13,7 +13,7 @@ jogilsang
 
 ### Java
 
-# 배열 출력
+#### 배열 출력
 ```java
 System.out.println(Arrays.toString(numbers));
 ```
