@@ -10,6 +10,14 @@ jogilsang
 해결한 문제 수34
 ```
 
+
+### Java
+
+# 배열 출력
+```java
+System.out.println(Arrays.toString(numbers));
+```
+
 ### 알고리즘 소스코드명
 
 124 나라의 숫자
